@@ -13,4 +13,4 @@ See also their SourceForge page at http://sourceforge.net/projects/editarea/
 
 This package comes bundled with EditArea 0.8.2, which is released
 under the LGPL, Apache and BSD license.
-This package itself is licensed under the WTFPL, Version 2.
+This package itself is licensed under the WTFPL, Version 2 (for the moment).
