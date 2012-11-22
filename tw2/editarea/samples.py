@@ -8,7 +8,7 @@ See http://toscawidgets.org/documentation/WidgetBrowser for more information
 
 import widgets
 
-class DemoEditarea(widgets.Editarea):
+class DemoEditAreaWidget(widgets.EditAreaWidget):
     # Provide default parameters, value, etc... here
     # default = <some-default-value>
     pass
