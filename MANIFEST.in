@@ -1,0 +1,2 @@
+recursive-include tw2/editarea/templates *
+recursive-include tw2/editarea/static *
