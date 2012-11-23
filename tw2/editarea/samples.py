@@ -13,3 +13,8 @@ class DemoEditAreaWidget(widgets.EditAreaWidget):
     # Provide default parameters, value, etc... here
     # default = <some-default-value>
     syntax = 'python'
+    value = u'''
+def hello():
+    print u'Hello World!'
+    return True
+'''

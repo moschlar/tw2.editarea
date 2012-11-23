@@ -1,4 +1,5 @@
 import tw2.core as twc
+import tw2.forms as twf
 
 
 editarea_js = twc.JSLink(
@@ -21,8 +22,7 @@ editarea_images = twc.DirLink(
     )
 
 
-class EditAreaWidget(twc.Widget):
-    template = "tw2.editarea.templates.editarea"
+class EditAreaWidget(twf.TextArea):
 
     # declare static resources here
     # you can remove either or both of these, if not needed
