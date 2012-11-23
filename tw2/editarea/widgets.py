@@ -15,9 +15,7 @@ editarea_reg_syntaxes = dict(
     (f.rstrip('.js'), twc.CSSLink(modname=__name__, filename=os.path.join('static/reg_syntax', f)))
     for f in os.listdir(os.path.join(os.path.dirname(__file__), 'static/reg_syntax')))
 
-editarea_images = list(twc.Link(modname=__name__, filename=os.path.join('static/images', f))
-    for f in os.listdir(os.path.join(os.path.dirname(__file__), 'static/images')))
-_editarea_images = twc.DirLink(
+editarea_images = twc.DirLink(
     modname=__name__,
     filename='static/images',
     )
